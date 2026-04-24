@@ -36,7 +36,19 @@ Thumbs.db
 !.vscode/settings.json
 !.vscode/launch.json
 
-# Específicos de Backend (Anticipación)
-**/venv/
-**/__pycache__/
-*.pyc
+# Específicos de Backend (.NET Core)
+**/bin/
+**/obj/
+**/out/
+[Bb]in/
+[Oo]bj/
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+
+# NuGet Packages
+*.nupkg
+**/packages/
+**/project.lock.json
+**/project.assets.json
